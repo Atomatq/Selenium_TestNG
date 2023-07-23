@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="url" value="https://ya.ru/"/>
+    <parameter name="request" value="Maven"/>
+    <parameter name="imgSrc" value="C:\Users\Il\IdeaProjects\Selenium_TestNG\src\test\resources\img.png"/>
+    <test name="Tests">
+        <classes>
+            <class name="Tests"></class>
+        </classes>
+    </test>
+</suite>
