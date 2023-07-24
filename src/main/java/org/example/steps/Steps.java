@@ -21,7 +21,7 @@ public class Steps {
     }
 
 
-    @Step("Проверить что первый результат содержит: {necessaryResult}")
+    @Step("Проверить наличие тега:{tag}")
     public static void checkTagsContains(List<String> tagsList, String tag) {
         assertTrue(tagsList.contains(tag), "Tag not found. ");
     }

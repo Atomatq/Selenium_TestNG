@@ -22,7 +22,7 @@ public class Tests extends BaseTest {
     }
 
     @Parameters({"url", "imgSrc"})
-    @Test(description = "Проверка отображения результатов поиска. ")
+    @Test(description = "Поиск по картинке. Проверка наличия теов. ")
     public void test2( String url, String imgSrc) {
         SearchPage searchPage = new SearchPage(webDriver, url);
         searchPage.seachByImg(imgSrc);
